@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-todo",
+            "outputPath": "dist/angular-todo-list",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,10 +71,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "app-todo:build:production"
+              "browserTarget": "angular-todo-list:build:production"
             },
             "development": {
-              "browserTarget": "app-todo:build:development"
+              "browserTarget": "angular-todo-list:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -82,7 +82,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app-todo:build"
+            "browserTarget": "angular-todo-list:build"
           }
         },
         "test": {
