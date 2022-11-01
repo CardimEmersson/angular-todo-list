@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href 'https://github.com/CardimEmersson/angular-todo-list' & angular-cli-ghpages --dir=dist/angular-todo-list",
+    "build": "ng build --base-href 'https://github.com/CardimEmersson/angular-todo-list'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "angular-cli-ghpages --dir=dist/app-todo"
